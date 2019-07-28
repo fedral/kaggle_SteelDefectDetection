@@ -3,7 +3,7 @@ Code repository for Kaggle Steel Defect Detection Competition
 
 
 ## target:
-For each image you must segment defects of each class (ClassId = [1, 2, 3, 4]), and caculate DICE score for each defect class as accuracy. 
+For each image you must segment defects of each class (ClassId = [1, 2, 3, 4]), and caculate mean accuracy of each defect classes' DICE score. 
 
 ## Our Method 
 * Coarse-to-Fine
@@ -13,8 +13,7 @@ For each image you must segment defects of each class (ClassId = [1, 2, 3, 4]), 
 	* step 4: [Optional] Using traditional ML algorithm to propagate and restore the boundory；
 
 
-* WE don't rely on one single-type network：
-
+* Don't rely on one single-type network：
 	- GPU hardware demanding during large image training;
 	- Redundant computation on normal region should be reduced;
 
@@ -22,12 +21,12 @@ For each image you must segment defects of each class (ClassId = [1, 2, 3, 4]), 
 ## stage-0: naive version (Week 1)
 
 ###  Data pre-processing:
-		SV-Image conversion + Data augmentation 
+	* CSV-Image conversion 
+	* Data Augmentation 
 
 #### (a) Segmentation Network: FCN
 
 	 
-
 #### (b) Detection Network: Mask RCNN
 
 
