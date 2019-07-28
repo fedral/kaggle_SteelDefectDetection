@@ -13,25 +13,22 @@ For each image you must segment defects of each class (ClassId = [1, 2, 3, 4]), 
 	* step 4: [Optional] Using traditional ML algorithm to propagate and restore the boundory；
 
 
-* WE don't rely on single segmentation network
-	'''diff 
+* WE don't rely on one single-type network：
+
 	- GPU hardware demanding during large image training;
 	- Redundant computation on normal region should be reduced;
-	'''  
-	
-		 
 
 
-
-
-## stage-0: naive version(Week 1)
+## stage-0: naive version (Week 1)
 
 ###  Data pre-processing:
 		SV-Image conversion + Data augmentation 
 
 #### (a) Segmentation Network: FCN
 
-#### (b) Detection Network: Mask RCNN + Segmentation Network: FCN
+	 
+
+#### (b) Detection Network: Mask RCNN
 
 
 
