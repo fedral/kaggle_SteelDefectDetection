@@ -14,17 +14,17 @@ For each image you must segment defects of each class (ClassId = [1, 2, 3, 4]), 
 
 
 * WE don't rely on single segmentation network
-		* GPU hardware demanding during large image training;   
-		* redundant computation on normal region should be reduced;
-		* 
+		- GPU hardware demanding during large image training;   
+		- redundant computation on normal region should be reduced;
+		 
 
 
 
 
-### stage-0: naive version(Week 1)
+## stage-0: naive version(Week 1)
 
-####  pre-processing
-		* long-run file - Image conversion 
+###  pre-processing
+	* CSV-Image conversion 
 
 
 #### (a) Segmentation Network: FCN
