@@ -14,8 +14,8 @@ For each image you must segment defects of each class (ClassId = [1, 2, 3, 4]), 
 
 
 * WE don't rely on single segmentation network
-	'''- GPU hardware demanding during large image training;'''   
-	'''- Redundant computation on normal region should be reduced;'''
+	'''- GPU hardware demanding during large image training;'''diff   
+	'''- Redundant computation on normal region should be reduced;'''diff
 		 
 
 
